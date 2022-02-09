@@ -1,0 +1,70 @@
+.App {
+  min-height: 100vh;
+  background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.search-form {
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar {
+  width: 50%;
+  border: none;
+  padding: 10px;
+}
+
+.search-button {
+  background: lightcoral;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.recipes {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.lds-facebook {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  margin: auto;
+}
+.lds-facebook div {
+  display: inline-block;
+  position: absolute;
+  left: 8px;
+  width: 16px;
+  background: #fff;
+  animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+}
+.lds-facebook div:nth-child(1) {
+  left: 8px;
+  animation-delay: -0.24s;
+}
+.lds-facebook div:nth-child(2) {
+  left: 32px;
+  animation-delay: -0.12s;
+}
+.lds-facebook div:nth-child(3) {
+  left: 56px;
+  animation-delay: 0;
+}
+@keyframes lds-facebook {
+  0% {
+    top: 8px;
+    height: 64px;
+  }
+  50%,
+  100% {
+    top: 24px;
+    height: 32px;
+  }
+}
