@@ -1,5 +1,5 @@
-### Usage
-Install dependencies
+# Usage
+### Install dependencies
 
 npm install
 
