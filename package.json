@@ -8,7 +8,9 @@
     "@testing-library/user-event": "^7.2.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-scripts": "^5.0.1",
+    "nth-check": "^2.1.1",
+    "postcss": "^8.4.35"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -30,5 +32,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "overrides": {
+    "nth-check": "$nth-check",
+    "postcss": "$postcss"
   }
 }
